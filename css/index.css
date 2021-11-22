@@ -1,0 +1,182 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  overflow-x: hidden;
+}
+:root {
+  --green: #23a264;
+}
+/* -----Navbar ----- */
+.navbar_ {
+  background-color: white !important;
+  border-bottom: 4px solid var(--green);
+}
+.nav-link {
+  font-size: 1.1rem;
+  margin: 0 0.5rem;
+  color: var(--green) !important;
+}
+.active {
+  background-color: var(--green);
+  color: white !important;
+  border-radius: 6px;
+}
+.dropdown-menu li a {
+  color: var(--green) !important;
+  font-size: 0.8rem;
+}
+.dropdown-menu li h6 {
+  font-size: 0.9rem !important;
+}
+/* -----Search---- */
+.searchBar-section {
+  height: 30rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.search-form input {
+  width: 21rem;
+  height: 3rem;
+  font-size: 1rem;
+}
+.search-form button {
+  background-color: var(--green);
+  color: white;
+  padding: 0 2rem;
+}
+/* ----Banners ---- */
+.banners-section img{
+    width: 100%;
+}
+
+
+/*-----Enquiry Section----- */
+
+.enquiry-section h2{
+    color: blue;
+
+}
+.enquiry-col{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.enquiry-col img{
+    height: 200px;
+    width: 200px;
+}
+.enquiry-col p{
+    color: blue;
+    font-size: 1.2rem;
+}
+
+/* -----Advertise------ */
+.advertise-section{
+  margin: 3rem 0;
+}
+.adv{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    row-gap: 0.8rem;
+}
+
+.advertise-marquee{
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  row-gap: 1rem;
+}
+
+.advertise-marquee a{
+  text-decoration: none;
+  font-size: 0.8rem;
+}
+
+/* ----Rates Table---- */
+.ratesTable-section{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 1rem;
+  background-color: rgb(255, 205, 112);
+  padding: 1rem;
+}
+.ratesTable-section button{
+  background-color: rgb(95, 76, 41);
+  border: none;
+}
+.ratesTable-section button:hover{
+  background-color: rgb(138, 110, 59);
+}
+
+/* ----Pharma Directory---- */
+.pharma-directory-section{
+  padding: 1rem;
+  padding-bottom: 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  row-gap: 1rem;
+  background-color: rgb(158, 255, 255);
+}
+.directory-search{
+  display: flex;
+  flex-direction: column;
+  row-gap: 0.5rem;
+  background-color: white;
+}
+.directory-search-img{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.directory-search-img img{
+  height: 100px;
+}
+.directory-search-text{
+  display: flex;
+  flex-direction: column;
+  row-gap: 0.5rem;
+  padding: 0.5rem ;
+}
+.directory-search-text a{
+  text-decoration: none;
+
+}
+.directory-search-text-title a{
+  font-size: 1.2rem;
+  color: #23a264;
+}
+.directory-search-text p{
+  margin-bottom: 0;
+}
+.directory-search-link{
+  text-decoration: none;
+  
+}
+
+/* ----Footer---- */
+.footer{
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+}
+.footer div{
+  color: rgb(233, 221, 221);
+  font-weight: 600;
+}
+.footer div a{
+  text-decoration: none;
+  color: rgb(233, 221, 221);
+  font-weight: 700;
+}

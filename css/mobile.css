@@ -1,0 +1,128 @@
+@media screen and (max-width:992px) {
+    .active{
+  display: flex;
+  justify-content: center;
+}
+.navbar-brand img{
+    height: 70px;
+}
+.searchBar-section{
+    height: 28rem;
+}
+
+}
+@media screen and (max-width:870px) {
+    .enquiry-col img{
+        height: 180px;
+        width: 180px;
+    }
+    .navbar-brand img{
+        height: 60px;
+    }
+    .search-form input {
+        width: 18rem;
+        font-size: 0.8rem;
+    }
+    .directory-search-img img{
+        height: 70px;
+      }
+      .directory-search-text-title a{
+          font-size: 1rem;
+      }
+      .directory-search-text p{
+          font-size: 0.8rem;
+      }
+      .directory-search-link{
+        font-size: 0.8rem; 
+      }
+}
+@media screen and (max-width:576px) {
+.adv{
+    margin-bottom: 1.5rem;
+}
+.navbar-brand img{
+    height: 50px;
+}
+.nav-link {
+    font-size: 0.9rem;
+}
+.searchBar-section{
+    height: 25rem;
+}
+.search-form input {
+    width: 15rem;
+    height: 2rem;
+    font-size: 0.6rem;
+
+}
+.search-form button {
+    font-size: 0.8rem;
+}
+.enquiry-section h2{
+   font-size: 1.2rem;
+}
+.enquiry-col img{
+    height: 160px;
+    width: 160px;
+}
+.enquiry-col p{
+    font-size: 1rem;
+}
+.directory-search-text{
+    row-gap: 0.3rem;
+}
+.directory-search-img img{
+    height: 50px;
+  }
+  .directory-search-text-title a{
+      font-size: 0.8rem;
+  }
+  .directory-search-text p{
+      font-size: 0.7rem;
+  }
+  .directory-search-link{
+    font-size: 0.7rem; 
+  }
+  .table th{
+      font-size: 0.8rem;
+      font-weight: 600;
+  }
+  .table td{
+      font-size: 0.8rem;
+  }
+  .footer div{
+      font-size: 0.8rem;
+  }
+}
+@media screen and (max-width:400px) {
+    .searchBar-section{
+        height: 22rem;
+    }
+    .search-form input {
+        width: 12rem;
+        height: 1.8rem;
+        font-size: 0.6rem;      
+    }
+    .search-form button {
+        font-size: 0.7rem;
+    }
+      .directory-search-img img{
+        height: 40px;
+      }
+      .directory-search-text-title a{
+          font-size: 0.7rem;
+      }
+      .directory-search-text p{
+          font-size: 0.6rem;
+      }
+      .directory-search-link{
+        font-size: 0.6rem; 
+      }
+      .table th{
+        font-size: 0.7rem;
+        font-weight: 600;
+    }
+    .table td{
+        font-size: 0.7rem;
+    }
+}
