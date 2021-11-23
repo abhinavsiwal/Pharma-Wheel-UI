@@ -93,6 +93,12 @@
   .footer div{
       font-size: 0.8rem;
   }
+  .drug-laws h2{
+    font-size: 1.5rem;
+}
+.drug-laws a{
+    font-size: 0.8rem;
+}
 }
 @media screen and (max-width:400px) {
     .searchBar-section{

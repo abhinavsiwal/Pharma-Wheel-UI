@@ -1,0 +1,22 @@
+
+.drugs-law-section{
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+    margin: 1rem 0;
+}
+.drug-laws{
+    display: flex;
+    flex-direction: column;
+    row-gap: 0.5rem;
+}
+.drug-laws h2{
+    color: #23a264;
+}
+.drug-laws a{
+    text-decoration: none;
+    color: rgb(44, 42, 42);
+}
+.drug-laws a span{
+    font-size: 1.2rem;
+}
