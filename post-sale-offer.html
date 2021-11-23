@@ -11,8 +11,9 @@
         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="./css/index.css">
     <link rel="stylesheet" href="./css/mobile.css">
-    <link rel="stylesheet" href="./css/trade-offer.css">
-    <title>Trade Offer</title>
+    <link rel="stylesheet" href="./css/contact.css">
+    <link rel="stylesheet" href="./css/post-sale-offer.css">
+    <title>Post Sale Offer</title>
 </head>
 
 <body>
@@ -78,21 +79,42 @@
             </div>
         </div>
     </nav>
-    <!-- Trade Offer -->
-    <section class="trade-offer-section container-fluid">
-        <h4>New Sale Offer</h4>
-        <div class="trade-offer container-fluid">
-            <a href="./post-sale-offer.html">Post Sale Offer</a>
-            <div class="sale-desc container-fluid">
-                <h6>Pharma Wheel</h6>
-                <p>New Sales Offer</p>
-                <a href="#">http://pharmawheel.com/trade/21280</a>
-            </div>
-            <a href="./post-sale-offer.html">Post Sale Offer</a>
+    <section class="contact-section container-fluid">
+        <div class="contact container">
+            <h2>Post Free Sale Offer</h2>
+            <form class="row g-3">
+                <div class="col-md-6">
+                    <label for="name" class="form-label">Name</label>
+                    <input type="text" class="form-control" id="name">
+                </div>
+                <div class="col-md-6">
+                    <label for="email" class="form-label">Email Id</label>
+                    <input type="email" class="form-control" id="email">
+                </div>
+                <div class="col-md-6">
+                    <label for="website" class="form-label">Sale Offer Title</label>
+                    <input type="text" class="form-control" id="website">
+                </div>
+                <div class="col-md-3">
+                    <label for="company" class="form-label">Company</label>
+                    <input type="text" class="form-control" id="company">
+                </div>
+                <div class="col-md-3">
+                    <label for="phone" class="form-label">Mobile No.</label>
+                    <input type="number" class="form-control" id="phone">
+                </div>
+                <div class="col-12">
+                    <label for="requirements" class="form-label">Sale Offer Detail</label>
+                    <textarea type="text" class="form-control" id="requirements"> </textarea>
+                </div>
+                <div class="col-12 mt-3 d-flex justify-content-center">
+                    <button type="submit" class="btn btn-primary">Post Sale Offer</button>
+                </div>
+            </form>
         </div>
     </section>
-     <!-- Advertise Section -->
-     <section class="advertise-section container-fluid">
+    <!-- Advertise Section -->
+    <section class="advertise-section container-fluid">
         <div class="row container-fluid justify-content-center">
             <div class="col-12 col-sm-6 col-lg-3 adv">
                 <h4 class="text-center">Advertise Here</h4>
@@ -133,8 +155,8 @@
             </div>
         </div>
     </section>
-       <!-- Footer -->
-       <footer class="container-fluid footer">
+    <!-- Footer -->
+    <footer class="container-fluid footer">
         <div>Site owned by P.W.Infotech</div>
         <div>Website Design by <a href="">Grideb</a></div>
     </footer>
@@ -142,7 +164,6 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
         crossorigin="anonymous"></script>
-
 </body>
 
 </html>
