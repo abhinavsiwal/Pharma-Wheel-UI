@@ -9,7 +9,9 @@
 .searchBar-section{
     height: 28rem;
 }
-
+.contact{
+    width: 80%;
+}
 }
 @media screen and (max-width:870px) {
     .enquiry-col img{
@@ -34,6 +36,9 @@
       }
       .directory-search-link{
         font-size: 0.8rem; 
+      }
+      .contact{
+          width: 100% !important;
       }
 }
 @media screen and (max-width:576px) {
@@ -98,6 +103,9 @@
 }
 .drug-laws a{
     font-size: 0.8rem;
+}
+.contact{
+    padding: 2rem 1rem !important;
 }
 }
 @media screen and (max-width:400px) {

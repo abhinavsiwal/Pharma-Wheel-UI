@@ -1,0 +1,32 @@
+.contact-section {
+  margin: 1rem 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  row-gap: 1rem;
+}
+.contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+row-gap: 2rem;
+  width: 60%;
+  border: 0.5px solid #23a264;
+  padding: 2rem;
+  border-radius: 10px;
+}
+.contact h2{
+    color: #23a264;
+}
+.contact form label{
+    color: #23a264;
+
+}
+.contact button{
+    background-color: #23a264;
+}
+.contact button:hover{
+    background-color: #127244;
+}
