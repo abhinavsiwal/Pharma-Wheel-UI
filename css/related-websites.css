@@ -1,0 +1,12 @@
+.related-websites-section{
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+    margin: 1rem 0;
+    margin-top: 1rem;
+}
+.related-website{
+    display: flex;
+    flex-direction: column;
+    /* row-gap: 0.5rem; */
+}
